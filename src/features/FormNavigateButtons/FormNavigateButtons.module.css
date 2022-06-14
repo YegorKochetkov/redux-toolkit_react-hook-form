@@ -1,0 +1,52 @@
+.buttons {
+	display: flex;
+	justify-content: right;
+	gap: 10px;
+}
+
+.button,
+.button_prime {
+	box-sizing: border-box;
+
+	height: 25px;
+	padding: 5px 15px;
+
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 14px;
+	color: #83ba63;
+	background-color: #fff;
+
+	border: 1px solid #83ba63;
+	border-radius: 12px;
+
+	transition: background-color 0.3s;
+}
+
+.button:hover {
+	cursor: pointer;
+	color: #fff;
+	background-color: #83ba63;
+}
+
+.button:active,
+.button_prime:active {
+  box-shadow: inset 1px 1px 3px 1px rgba(0, 0, 0, 0.5);
+	opacity: 0.5;
+}
+
+.button:disabled,
+.button_prime:disabled {
+	opacity: 0.5;
+}
+
+.button_prime {
+	cursor: pointer;
+	color: #fff;
+	background-color: #83ba63;
+}
+
+.button_prime:hover {
+	color: #83ba63;
+	background-color: #fff;
+}
