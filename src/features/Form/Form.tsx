@@ -55,10 +55,9 @@ const FormModalContent: FC = () => {
 		<form
 			onSubmit={handleSubmit(onSubmit)}
 			id="form"
-			className={styles.form}	
 		>
 			{location.pathname === `/${steps[0]}` && (
-				<section>
+				<section className={styles.form}>
 					<h2 className={styles.form__title}>Invoice Address</h2>
 					<label className={styles.form__label}>
 		
@@ -163,7 +162,7 @@ const FormModalContent: FC = () => {
 			)}
 
 			{location.pathname === `/${steps[1]}` && (
-				<section>
+				<section className={styles.form}>
 					<h2 className={styles.form__title}>Bank Data</h2>
 					<label className={styles.form__label}>
 						<span className={styles.form__label_title}>
@@ -228,7 +227,7 @@ const FormModalContent: FC = () => {
 			)}
 
 			{location.pathname === `/${steps[2]}` && (
-				<section>
+				<section className={styles.form}>
 					<h2 className={styles.form__title}>Contact</h2>
 					<label className={styles.form__label}>
 						<span className={styles.form__label_title}>
