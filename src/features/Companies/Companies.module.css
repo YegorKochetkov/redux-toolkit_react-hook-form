@@ -1,0 +1,28 @@
+.companies {
+	box-sizing: border-box;
+	
+	width: max-content;
+
+	border: 1px solid #376b8d;
+	border-collapse: collapse;
+
+	font-family: 'Roboto';
+}
+
+.companies_head {
+	color: #fff;
+	background-color: #376b8d;
+}
+
+.companies_cell {
+	box-sizing: border-box;
+
+	padding: 3px 15px;
+	min-width: 60px;
+
+	border: 1px solid #6b7074;
+
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+}

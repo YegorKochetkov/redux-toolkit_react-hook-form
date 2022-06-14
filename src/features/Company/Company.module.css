@@ -1,0 +1,35 @@
+.company__cell {
+  box-sizing: border-box;
+
+	padding: 3px 15px;
+
+	border: 1px solid #6b7074;
+  
+  text-align: center;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+}
+
+.company__delete_button {
+  width: 25px;
+  height: 25px;
+  
+  border: none;
+  
+  background-color: transparent;
+  background-image: url(../../images/bucket-icon.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  transition: box-shadow 0.3s;
+}
+
+.company__delete_button:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.2);
+}
+
+.company__delete_button:active {
+  box-shadow: inset 1px 1px 3px 1px rgba(0, 0, 0, 0.3);
+}
