@@ -1,46 +1,35 @@
-# Getting Started with Create React App
+# React application containing a page with a table and a modal window
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) TS template.
+[DEMO LINK](https://yegorkochetkov.github.io/redux-toolkit_react-hook-form/)
 
-## Available Scripts
+## Description
+[Figma](https://www.figma.com/file/tJdorwZjlCUbZjX5XKfR6L/Test-(Copy)?node-id=2%3A20)
 
-In the project directory, you can run:
+The main page of the application contains a table with saved data and buttons.
+The table should display the data stored in the store (use @reduxjs/toolkit to store and manage the data).
+The table should display the data stored in the store (use @reduxjs/toolkit to store and manage the data).
+If the table is wider than the screen, provide a scroll, while the buttons on top of the table must be fixed.
+By clicking on the “Delete” icon in a table row, a row in the table is deleted.
+By clicking on the “Add” button, a step-by-step modal window for entering data should be displayed.
 
-### `npm start`
+### Additional
+Fields marked with * must be required.
+The “Email” field from the third step should be email.
+Displaying validation errors is up to you.
+The mobile version is not required.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Component with conversion
+- One currency must have its own input and select.
+- a separate input + select for the first currency, and a separate input + select for the second currency
+- input is given a number to indicate the number of units to convert
+- select must contain at least three currencies - UAH, USD, EUR.
+- conversion must occur in both directions
+- when changing the value in the first currency, the value in the second must be recalculated, and vice versa
+- when changing the currency in each select, the conversion of both currencies should be recalculated correctly
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### To implement use
+The modal window can be implemented independently or using react-modal.
+Implement the form using react-hook-form.
+To create a react application, you can use react-create-app or your own builders.
+It is forbidden to use third-party modules (except those mentioned above).
+The application must be typed using typescript.
