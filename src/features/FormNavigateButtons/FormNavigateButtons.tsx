@@ -12,6 +12,8 @@ export const FormNavigationButtons: FC = () => {
 
 	const steps = useAppSelector(selectSteps);
 
+	const isLastStep = location.pathname === `/${steps[steps.length - 1]}`;
+
 	return (
 		<section className={styles.buttons}>	
 			<button
@@ -37,23 +39,12 @@ export const FormNavigationButtons: FC = () => {
 				</button>
 			)}
 
-			{location.pathname !== `/${steps[steps.length - 1]}` && (
-				<input
-					className={styles.button}
-					type="submit"
-					value="Next"
-					form="form"
-				/>
-			)}
-			
-			{location.pathname === `/${steps[steps.length - 1]}` && (
-				<input
-					className={styles.button}
-					type="submit"
-					value="Save"
-					form="form"
-				/>
-			)}
+			<input
+				className={styles.button}
+				type="submit"
+				value={isLastStep ? "Save" : "Next"}
+				form="form"
+			/>
 		</section>
 	);
 };

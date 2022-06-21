@@ -1,7 +1,6 @@
 import { FC } from "react";
 import { useAppSelector } from "./app/hooks";
 import { Outlet, useNavigate } from "react-router-dom";
-import "./App.css";
 import { Companies } from "./features/Companies/Companies";
 import { selectSteps } from "./features/modal/modalSlice";
 import "./App.css";
