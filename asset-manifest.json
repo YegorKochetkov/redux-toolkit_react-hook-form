@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/redux-toolkit_react-hook-form/static/css/main.3d4d93f3.css",
-    "main.js": "/redux-toolkit_react-hook-form/static/js/main.4efa82ce.js",
+    "main.css": "/redux-toolkit_react-hook-form/static/css/main.dcfc4ca9.css",
+    "main.js": "/redux-toolkit_react-hook-form/static/js/main.3e1fee30.js",
     "static/js/787.cfe94078.chunk.js": "/redux-toolkit_react-hook-form/static/js/787.cfe94078.chunk.js",
     "index.html": "/redux-toolkit_react-hook-form/index.html",
-    "main.3d4d93f3.css.map": "/redux-toolkit_react-hook-form/static/css/main.3d4d93f3.css.map",
-    "main.4efa82ce.js.map": "/redux-toolkit_react-hook-form/static/js/main.4efa82ce.js.map",
+    "main.dcfc4ca9.css.map": "/redux-toolkit_react-hook-form/static/css/main.dcfc4ca9.css.map",
+    "main.3e1fee30.js.map": "/redux-toolkit_react-hook-form/static/js/main.3e1fee30.js.map",
     "787.cfe94078.chunk.js.map": "/redux-toolkit_react-hook-form/static/js/787.cfe94078.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d4d93f3.css",
-    "static/js/main.4efa82ce.js"
+    "static/css/main.dcfc4ca9.css",
+    "static/js/main.3e1fee30.js"
   ]
 }
